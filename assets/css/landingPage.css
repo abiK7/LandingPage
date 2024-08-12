@@ -181,7 +181,7 @@ button,.counter{
     font-family: 'BeVietnamPro-Light';
     color: #e7e7ee;
 }
-.columnDesign input[type="text"] {
+.columnDesign input[type="email"]{
     padding: 20px;
     border-radius: 20px;
     box-sizing: border-box;
@@ -190,7 +190,7 @@ button,.counter{
     color: #9c9c9c;
     border: 0;
     margin-right: 10px;
-   outline:0;
+    outline:0;
 }
 .columnDesign .copyright{
     align-self: center;
