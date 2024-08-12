@@ -1,0 +1,237 @@
+@font-face{
+	font-family:BeVietnamPro-Regular;
+	src: url(../fonts/BeVietnamPro-Regular.ttf);
+	font-style: normal;
+}
+@font-face{
+	font-family:BeVietnamPro-Bold;
+	src: url(../fonts/BeVietnamPro-Bold.ttf);
+	font-style: normal;
+}
+@font-face{
+	font-family:BeVietnamPro-Light;
+	src: url(../fonts/BeVietnamPro-Light.ttf);
+	font-style: normal;
+}
+@font-face{
+	font-family:BeVietnamPro-SemiBold;
+	src: url(../fonts/BeVietnamPro-SemiBold.ttf);
+	font-style: normal;
+}
+html,body{
+	background:#ffffff;
+	width:100%;
+	margin:0;
+}
+html *{
+	text-decoration: none;
+	list-style-type:none;
+	padding: 0;
+	font-family:BeVietnamPro-Regular;
+	font-size: 16px;
+}
+header{
+	display: flex;
+	justify-content:space-between;
+}
+.mainContainer {
+    width: 90%;
+    margin: 50px auto 0;
+    display: block;
+}
+.mainLogo{
+	width:100px;
+	height:100%;
+}
+header nav{
+	display: flex;
+	gap: 40px;
+}
+header nav a{
+	font-size: 12px;
+	color:#484e57;
+	font-family:BeVietnamPro-SemiBold;
+}
+button,.counter{
+	background:#f3613c;
+	color:#fff;
+	font-family:BeVietnamPro-SemiBold;
+	font-size: 12px;
+	border-radius:20px;
+	padding: 10px 20px;
+	box-sizing:border-box;
+	border:0;
+	box-shadow: 0px 3px 7px 0px #ffb9a7;
+}
+.part .sectionLeft h1,
+.testimonals h4{
+	color:#283558;
+	font-family:BeVietnamPro-Bold;
+	font-size:40px;
+}
+.part .sectionLeft p,.part .sectionRight p{
+		color:#a5a5ad;
+		font-family:BeVietnamPro-Regular;
+		font-size: 12px;
+}
+.part {
+    display: flex;
+    margin-bottom:20px;
+}
+.part .sectionLeft,.part .sectionRight {
+    flex-basis: 50%;
+}
+.part .sectionRight img{
+    width: 100%;
+}
+.sectionLeft{
+	align-content:center;
+}
+.sectionRight h6 {
+    width: auto;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font-size:BeVietnamPro-SemiBold;
+}
+.part .sectionRight p {
+    margin-left: 70px;
+}
+.part .sectionRight ul li{
+	padding-bottom:20px;
+}
+.testimonals{
+	flex-direction:column;
+}
+.testimonals h4{
+	text-align: center;
+}
+.feedbackList {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedbackList li {
+    background: #fafafa;
+    padding: 25px;
+    position: relative;
+    border-radius:4px
+}
+.feedbackList li p {
+    text-align: center;
+    color:#a8a9ad;
+    font-size:12px
+}
+.feedbackList li img {
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.feedbackList li label {
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    font-family: 'BEVIETNAMPRO-BOLD';
+    color: #283558;
+    font-size: 14px;
+}
+.testimonals button {
+    width: fit-content;
+    align-self: center;
+}
+.firstPart {
+    background: #f3613c;
+    display: flex;
+}
+.firstPart section {
+    flex-basis: 50%;
+    padding: 4%;
+    text-align: center;
+    align-content: center;
+}
+.firstPart .sectionLeft {
+    color: #fff;
+    font-size: 39px;
+    text-align: left;
+    font-family: 'BeVietnamPro-SemiBold';
+}
+.firstPart section button {
+    color: #f3613c;
+    background: #fff;
+    box-shadow: 0px 1px 5px 0px #a8796d;
+}
+.secondPart {
+    background: #1e1e26;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    padding: 4%;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.columnDesign .mainLogo {
+    width: 130px;
+}
+.columnDesign li {
+    font-size: 12px;
+    padding: 0 0 10px;
+    font-family: 'BeVietnamPro-Light';
+    color: #e7e7ee;
+}
+.columnDesign input[type="text"] {
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 20px;
+    font-size: 12px;
+    color: #9c9c9c;
+    border: 0;
+    margin-right: 10px;
+}
+.columnDesign .copyright{
+    align-self: center;
+    color: #bcbcbc;
+}
+
+ul.columnDesign:last-child,ul.columnDesign:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li.iconList a {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+li.iconList .fb {
+    background: url(../images/icon-facebook.png) no-repeat;
+    background-size: 20px;
+}
+li.iconList .utube {
+    background: url(../images/icon-youtube.png) no-repeat;
+    background-size: 20px;
+}
+li.iconList .xbird {
+    background: url(../images/icon-twitter.png) no-repeat;
+    background-size: 20px;
+}
+li.iconList .pint{
+    background: url(../images/icon-pinterest.png) no-repeat;
+    background-size: 20px;
+}
+li.iconList .insta{
+    background: url(../images/icon-instagram.png) no-repeat;
+    background-size: 20px;
+}
+li.iconList i{
+	width:20px;
+	height:20px;
+	display: inline-block;
+}
+li.iconList {
+    display: flex;
+    justify-content: space-between;
+}
