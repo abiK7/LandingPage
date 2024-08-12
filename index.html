@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="assets/css/landingPage.css">
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/landingPage.js"></script>
   <title>Frontend Mentor | Manage landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -118,7 +120,7 @@
       <li>Privacy Policy</li>
     </ul>
      <ul class="columnDesign">
-      <li><input  type="text" placeholder="Updates in your inbox..."><button>Go</button></li>
+      <li><input  type="email" id="emailId" placeholder="Updates in your inbox..." required><button id="saveEmailId">Go</button></li>
       <li class="copyright">Copyright 2020. All Rights Reserved</li>
     </ul>
   </div>
